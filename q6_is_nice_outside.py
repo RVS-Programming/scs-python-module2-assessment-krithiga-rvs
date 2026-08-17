@@ -1,11 +1,11 @@
 """ Question 6: Debug the Function """
 def fahrenheit_to_celsius(temp):
-    return (temp - 32) * (5 // 9)
+    return (temp - 32) * (5 / 9)
 
 def is_nice_outside(temperature, in_fahrenheit, is_raining):
     if in_fahrenheit:
         temperature = fahrenheit_to_celsius(temperature)
-    return (not is_raining) and ((temperature > 4) or (temperature < 35))
+    return (not is_raining) and ((temperature > 4) and (temperature < 35))
 
 """ Test 6 """
 def test_is_nice_outside():
