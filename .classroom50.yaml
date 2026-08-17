@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "scs-python"
+assignment: "module2-assessment"
+owner:
+  username: "krithiga-rvs"
+  id: 254379673
+  accepted_at: "2026-08-17T05:49:35Z"
+source:
+  owner: "RVS-Programming"
+  owner_id: 309623018
+  repo: "module2-assessment"
+  branch: "main"
