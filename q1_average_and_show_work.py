@@ -5,7 +5,7 @@ Output: print out the calculation of the average of these three integers
         returns nothing
 """
 def average_and_show_work(x, y, z):
-    mid_result = x + y + z
+    mid_result = (x + y + z)
     final_result = round(mid_result / 3, 2)
     first_str = "(" + str(x) + " + " + str(y) + " + " + str(z) + ") / 3"
     second_str = str(mid_result) + " / 3"
